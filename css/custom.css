@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 991px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* section nav **************************************************/
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;                
+    }
+    #navbar img {
+        margin-inline-start: 10em;
+        height: 1.2rem; 
+        display: block;
+    }
+    #navbar .menu {
+        display: flex;
+        margin-inline-end: 10em;  
+        gap: 3em;
+                
+    }
+    #navbar a {
+        color: #fff; 
+        text-decoration: none;
+        font-size: 1em;
+
+    }
+    #navbar a:hover {
+        color:#d9524e ;
+    }
+    
+    /* Supprime l'existance du menu mobile.   */
+    .topnav-mobile{
+        display: none;
+      }
+    
+    /* section home ***************************************************************/
+    #home {
+        height: 85vh;
+        padding-block-start: 5vh;
+        background-image: url("../images/hero-image.jpg");
+        background-size:cover;
+        background-position:center;
+        text-align: center;
+        color: white;
+    }
+    
+    #home .glasmorphism-test{
+        margin-inline: 50vh;
+        padding-block: 1.5vh;
+        border: none; 
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Une légère ombre pour un effet 3D */
+        background: rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(10px); 
+    }
+    
+    #home h1 {	
+        margin-inline: 2em;
+        font-size: 3rem;
+    }
+    #home p {	
+        margin-block: 1em;
+        margin-inline: 1em;
+        font-size: 1em;
+        line-height: 3.5vh;
+    }
+    #home button {	
+        background-color: #d9524e ;
+        margin: 0 auto;
+        margin-block-start: 1em;
+        padding: 1.5vh;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    #home img {	
+     display:block;
+     margin: 0 auto;
+     margin-block-start: 2em;
+    }
+    /* section who ***************************************************************/
+    #who {
+        height: 50vh;
+        padding-block: 2em ;
+        background-color: #fefeff;
+        text-align:  center;
+    }
+    
+    #who h1 {
+        color:#e74d3d;
+        margin-block: 0.5vh;
+    }
+    
+    #who .underline{
+        margin-block-start: 2vh;
+        margin-inline: 46.6%;
+        width: 15vh;
+        border-bottom: 2px solid red;
+    }
+    
+    #who p {
+        margin-block-start: 3vh;
+        margin-inline: 50vh;
+        color:black;
+        font-size: 1.2rem;
+        line-height: 3.5vh;
+    }
+    
+    /* section get involved ***************************************************************/
+    #get-involved {
+        height: 60vh;
+        padding-block-start: 2em;
+        background-color: #f5f4f4;
+        text-align:  center;
+        color: red;
+    }
+    
+    #get-involved  .underline{
+        width: 15vh;
+        margin: 1em auto;
+        border-bottom: 2px solid red;
+        margin-bottom: 2em;
+        }
+    #get-involved .card-involved-container {
+        display: grid;
+        grid-template-columns: repeat(3, 25em);
+        margin: 3em 10em;
+    }
+    
+    #get-involved .card {
+        margin-inline: 2vh;
+        color: red;
+    }
+    #get-involved .card i{
+        color: black;
+        margin-block-end: 0.2em;
+    }
+    
+    #get-involved .card h1 {
+        font-size: 2rem;
+    }
+    #get-involved .card p {
+        color: black;
+        font-size: 1.2rem;
+        line-height: 2.8vh;
+        margin: 0 1.5em;
+    }
+    #get-involved .card button {
+        padding: 0.2em 1em;
+        margin: 0.7em 0;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 4px;
+        color: red;
+    }
+    
+    /* section get involved ***************************************************************/
+    #footer {
+        height: 25vh;
+        background-color: #f74d3d;
+    }
+    #Logo-brand {
+        margin-inline-start: 11em;
+        margin-block-start: 6.2em;
+    }
+    #back-to-top i{
+        margin: 0em;
+        margin-inline-start: 28em;
+    }
+    #back-to-top i:hover{
+        background-color: rgb(253, 17, 17);
+    }
+}
+
+
+/* reponsive mobile ******************************************************************************************/
+@media screen and (max-width: 767px) {
+    /* section nav ***************************************************************/
+    #navbar {
+        display: none;
+    }
+    /* Style the navigation menu */
+    .topnav-mobile{
+        overflow: hidden;
+        background-color: #0c0c0c;
+        position: relative;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav-mobile #myLinks {
+        display: none;
+      }
+    
+    /* Style navigation menu links */
+    .topnav-mobile a {
+        color: rgb(253, 253, 253);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav-mobile a.icon {
+        background: rgb(85, 83, 83);
+        display: block;
+        position: absolute;
+        right: 0.20em;
+        top: 0.20em;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav-mobile a:hover {
+        background-color: #010101;
+        color: rgb(248, 248, 248);
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+      }
+    
+    /* section home ***************************************************************/
+    #home {
+        height: 70vh;
+        padding-block-start: 5vh;
+        background-image: url("../images/hero-image.jpg");
+        background-size:cover;
+        background-position:bottom;
+        text-align: center;
+        color: white;
+    }
+    
+    #home .glasmorphism-test{
+        margin-inline: 14vh;
+        padding-block: 1.5vh;
+        border: none; 
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Une légère ombre pour un effet 3D */
+        background: rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(10px); 
+    }
+    #home h1 {	
+        margin-inline: 23vh;
+        font-size: 1.5rem;
+    }
+    #home p {	
+        margin-block-start: 1.5em;
+        margin-inline: 4em;
+        font-size: 0.7rem;
+        line-height: 1.9vh;
+    }
+    #home button {	
+        background-color: #d9524e ;
+        margin: 0 auto;
+        margin-block-start: 1em;
+        padding: 1.5vh;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 2rem;
+    }
+    #home img {	
+     display:block;
+     margin: 0 auto;
+     margin-block-start: 2em;
+    }
+    /* section who ***************************************************************/
+    #who {
+        height: 55vh;
+        padding-block: 2em ;
+        background-color: #fefeff;
+        text-align:  center;
+    }
+    #who h1 {
+        color:#e74d3d;
+        margin: 0 auto;
+        margin-block: 0.5vh;
+    }
+    #who .underline{
+     visibility: hidden;
+    }
+    #who p {
+        margin-inline: 11vh;
+        color:black;
+        font-size: 1.rem;
+        line-height: 3.3vh;
+    }
+    
+    /* section get involved ***************************************************************/
+    #get-involved {
+        display: grid;
+        place-items: center;
+        padding-block: 5vh;
+        background-color: #f5f4f4;
+        text-align:  center;
+        color: red;
+    }
+    
+    #get-involved .card {
+        color: red;
+        margin: 3vh 5vh ;
+    
+    }
+    #get-involved .card i{
+        color: black;
+        margin-block-end: 0.2em;
+    }
+    
+    #get-involved .card h1 {
+        font-size: 2rem;
+    }
+    #get-involved .card p {
+        color: black;
+        font-size: 1.2rem;
+        line-height: 2.8vh;
+    }
+    #get-involved .card button {
+        margin-block-start: 2vh;
+        padding: 0.8vh;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 4px;
+        color: red;
+    }
+    
+    /* section get involved ***************************************************************/
+    #footer {
+        height: 50vh;
+        background-color: #f74d3d;
+        position: relative;
+    }
+    #Logo-brand {
+        margin-block-start: 40vh;
+        margin-inline-start: 10vh;
+    }
+    #back-to-top i{
+        margin-inline-start: 42vh;
+        margin-block-start: -50vh;
+    }
+    #back-to-top i:hover{
+        background-color: grey;
+    }
+}
+
+

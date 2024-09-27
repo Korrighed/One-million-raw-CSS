@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css" >
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>One million lines</title>
+</head>
+<header>
+    <nav id="navbar">
+        <img src="images/top-logo.png" alt="Logo One milion lines">
+        <div class="menu" id="menu">
+            <a href="#who">WHO WE ARE</a>
+            <a href="#get-involved">GET INVOLVED</a>
+        </div>
+    </nav>  
+    <!-- Nav mobile-->
+    <section class="topnav-mobile">
+        <a href="#home" class="active">
+            <img src="images/top-logo.png" alt="Logo One milion lines">
+        </a>
+        <div id="myLinks">
+            <a href="#who">WHO WE ARE</a>
+            <a href="#get-involved">GET INVOLVED</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </section>
+</header>
+<body>
+    <section id="home">
+        <div class="glasmorphism-test">
+            <h1>
+                Our goal is to inspire Tallahassee to write 1,000,000 lines of code_
+            </h1>
+            <p>
+                All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by
+                <strong>CODE.org.</strong>.Millions of lines of code are being written. In the capital of Florida,
+                Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code.
+            </p>
+        </div>
+        <button type="button">Learn more »</button>
+        <img src="images/code.png" alt="logo stylisé CODE">
+    </section>
+    <div id="who">
+        <img src="images/academy-brand-med.png" alt="Logo academique">
+        <h1 id="Support-Logo">
+            WHO WE ARE
+        </h1>
+        <div class="underline"></div>
+        <p>
+            We are <strong style="color: red;">MASSIVE Academy.</strong> We aim to improve education through both method – 
+            effective project-based learning – and material by teaching skills that are applicable to improving your
+            life today.
+        </p>
+    </div>
+    <section id="get-involved">
+        <h1>GET INVOLVED</h1>
+        <div class="underline"></div>
+        <div class="card-involved-container">
+            <div class="card">
+                <i class="fa fa-user-circle logo fa-5x" aria-hidden="true"></i>
+                <h1>STUDENTS</h1>
+                <p>
+                    Want to learn how to code? Want to help us get to 1,000,000 lines? 
+                    Click the button below and we’ll let you know how to get involved.
+                </p>
+                <button type="button">Start Learning »</button>
+            </div>
+            <div class="card">
+                <i class="fa fa-pencil logo fa-5x" aria-hidden="true"></i>
+                <h1>EDUCATOR </h1>
+                <p>
+                    Want to bring this initiative to your school or institution? 
+                    Awesome! Click the button below and we'll make it happen.
+                </p>
+                <button type="button">Join The Initiative »</button>
+            </div>
+
+            <div class="card">
+                <i class="fa fa-money logo fa-5x" aria-hidden="true"></i>
+                <h1>SPONSORS</h1>
+                <p>
+                    We love all the support we get to help host more events, 
+                    and empower more lives with the knowledge of coding. Click to get involved.
+                </p>
+                <button type="button">Give Support »</button>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <img src="images/one-million-bottom-brand.png" id="Logo-brand" alt="Logo ONE communit, one million lines, ">
+        <a href="#home" id="back-to-top">
+            <i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true" alt="Fleche de retour en haut de page"></i>  
+        </a>
+    </footer>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
+</body>
+</html>
