@@ -336,16 +336,16 @@
     
     /* section get involved ***************************************************************/
     #footer {
-        height: 40vh;
+        height: 30vh;
         background-color: #f74d3d;
         position: relative;
     }
     #Logo-brand {
-        margin-block-start: 30vh;
+        margin-block-start: 20%;
         margin-inline-start: 5vh;
     }
     #back-to-top i{
-        margin-inline-start: 90vh;
+        margin-inline-start: 90%;
         margin-block-start: -5vh;
     }
     #back-to-top i:hover{
@@ -363,9 +363,12 @@
     }
     /* Style the navigation menu */
     .topnav-mobile{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
         overflow: hidden;
         background-color: #0c0c0c;
-        position: relative;
       }
       .topnav-mobile #myLinks {
         display: none;
@@ -402,8 +405,8 @@
     
     /* section home ***************************************************************/
     #home {
-        height: 60vh;
-        padding-block-start: 5vh;
+        height: 50vh;
+        padding-block-start: 5%;
         background-image: url("../images/hero-image.jpg");
         background-size:cover;
         background-position:bottom;
@@ -412,7 +415,8 @@
     }
     
     #home .glasmorphism-test{
-        margin-inline: 14vh;
+        box-sizing: border-box;
+        margin-inline: 2%;
         padding-block: 1.5vh;
         border: none; 
         border-radius: 15px;
@@ -421,7 +425,7 @@
         backdrop-filter: blur(10px); 
     }
     #home h1 {	
-        margin-inline: 13vh;
+        margin-inline: 10%;
         font-size: 1.5rem;
     }
     #home p {	
@@ -447,8 +451,8 @@
     }
     /* section who ***************************************************************/
     #who {
-        height: 50vh;
-        padding-block: 5vh ;
+        height: 45vh;
+        padding-block: 3vh ;
         background-color: #fefeff;
         text-align:  center;
     }
@@ -464,7 +468,7 @@
         border-bottom: 2px solid red;
     }
     #who p {
-        margin-inline: 11vh;
+        
         color:black;
         font-size: 1.rem;
         line-height: 3.3vh;
@@ -516,16 +520,16 @@
     
     /* section get involved ***************************************************************/
     #footer {
-        height: 40vh;
+        height: 20%;
         background-color: #f74d3d;
         position: relative;
     }
     #Logo-brand {
-        margin-block-start: 30vh;
-        margin-inline-start: 5vh;
+        margin-block-start: 25%;
+        margin-inline-start: 5%;
     }
     #back-to-top i{
-        margin-inline-start: 90vh;
+        margin-inline-start: 90%;
         margin-block-start: -5vh;
     }
     #back-to-top i:hover{

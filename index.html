@@ -8,30 +8,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>One million lines</title>
 </head>
-<header>
-    <nav id="navbar">
-        <img src="images/top-logo.png" alt="Logo One milion lines">
-        <div class="menu" id="menu">
-            <a href="#who">WHO WE ARE</a>
-            <a href="#get-involved">GET INVOLVED</a>
-        </div>
-    </nav>  
-    <!-- Nav mobile-->
-    <div class="topnav-mobile">
-        <a href="#home" class="active">
-            <img src="images/top-logo.png" alt="Logo One milion lines">
-        </a>
-        <div id="myLinks">
-            <a href="#who">WHO WE ARE</a>
-            <a href="#get-involved">GET INVOLVED</a>
-        </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-</header>
 <body>
+    <header>
+        <nav id="navbar">
+            <img src="images/top-logo.png" alt="Logo One milion lines">
+            <div class="menu" id="menu">
+                <a href="#who">WHO WE ARE</a>
+                <a href="#get-involved">GET INVOLVED</a>
+            </div>
+        </nav>  
+        <!-- Nav mobile-->
+        <div class="topnav-mobile">
+            <a href="#home" class="active">
+                <img src="images/top-logo.png" alt="Logo One milion lines">
+            </a>
+            <div id="myLinks">
+                <a href="#who">WHO WE ARE</a>
+                <a href="#get-involved">GET INVOLVED</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
     <section id="home">
         <div class="glasmorphism-test">
             <h1>
@@ -95,18 +95,19 @@
     <footer id="footer">
         <img src="images/one-million-bottom-brand.png" id="Logo-brand" alt="Logo ONE communit, one million lines, ">
         <a href="#home" id="back-to-top">
-            <i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true" alt="Fleche de retour en haut de page"></i>  
+            <i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i>  
         </a>
     </footer>
     <script>
         function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-    </script>
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        </script>
 </body>
+    
 </html>
