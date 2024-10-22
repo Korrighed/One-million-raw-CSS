@@ -261,9 +261,9 @@
         font-size: 2rem;
     }
     #home img {	
-     display:block;
-     margin: 0 auto;
-     margin-block-start: 2em;
+    display:block;
+    margin: 0 auto;
+    margin-block-start: 2em;
     }
     /* section who ***************************************************************/
     #who {
@@ -286,7 +286,7 @@
     #who p {
         margin-inline: 11vh;
         color:black;
-        font-size: 1.rem;
+        font-size: 1rem;
         line-height: 3.3vh;
     }
     
@@ -357,51 +357,48 @@
 /* reponsive mobile ******************************************************************************************/
 @media screen and (max-width: 767px) {
     /* section nav ***************************************************************/
-   
     #navbar {
         display: none;
     }
     /* Style the navigation menu */
     .topnav-mobile{
-        margin: 0;
-        padding: 0;
+        margin: 0vh;
+        padding: 0vh;
         box-sizing: border-box;
         position: relative;
         overflow: hidden;
         background-color: #0c0c0c;
-      }
-      .topnav-mobile #myLinks {
+    }
+    .topnav-mobile #myLinks {
         display: none;
-      }
-    
+    }
     /* Style navigation menu links */
     .topnav-mobile a {
         color: rgb(253, 253, 253);
         padding: 1vh 2vh;
         text-decoration: none;
         display: block;
-      }
-      
+    }
       /* Style the hamburger menu */
-      .topnav-mobile a.icon {
+    .topnav-mobile a.icon {
         background: rgb(10, 10, 10);
         display: block;
         position: absolute;
         right: 3vh;
         top: 0.20em;
-      }
-      
+    }
+    
       /* Add a grey background color on mouse-over */
-      .topnav-mobile a:hover {
+    .topnav-mobile a:hover {
         background-color: #010101;
         color: rgb(255, 255, 255);
-      }
-      
+    }
+    
       /* Style the active link (or home/logo) */
-      .active {
+    .active {
         background-color: #000000;
         color: rgb(255, 255, 255);
-      }
+    }
     
     /* section home ***************************************************************/
     #home {
@@ -445,9 +442,9 @@
         font-size: 2rem;
     }
     #home img {	
-     display:block;
-     margin: 0 auto;
-     margin-block-start: 2em;
+    display:block;
+    margin: 0 auto;
+    margin-block-start: 2em;
     }
     /* section who ***************************************************************/
     #who {
@@ -468,12 +465,10 @@
         border-bottom: 2px solid red;
     }
     #who p {
-        
         color:black;
-        font-size: 1.rem;
+        font-size: 1rem;
         line-height: 3.3vh;
     }
-    
     /* section get involved ***************************************************************/
     #get-involved {
         display: grid;
@@ -483,14 +478,12 @@
         text-align:  center;
         color: red;
     }
-    
     #get-involved  .underline{
         margin: 0 auto;
         margin-block: 2vh;
         width: 15vh;
         border-bottom: 2px solid red;
     }
-
     #get-involved .card {
         color: red;
         margin: 3vh 5vh ;
@@ -517,7 +510,6 @@
         border-radius: 4px;
         color: red;
     }
-    
     /* section get involved ***************************************************************/
     #footer {
         height: 20%;
@@ -532,9 +524,4 @@
         margin-inline-start: 90%;
         margin-block-start: -5vh;
     }
-    #back-to-top i:hover{
-        background-color: grey;
-    }
-}
-
-
+    #back-to-top i:hover{background-color: grey;}}
