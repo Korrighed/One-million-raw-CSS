@@ -405,7 +405,7 @@
     
     /* section home ***************************************************************/
     #home {
-        height: 50vh;
+        height: 60vh;
         padding-block-start: 5%;
         background-image: url("../images/hero-image.jpg");
         background-size:cover;
